@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Oswald&family=Poppins:wght@500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Andada Pro', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+ /* ---------------------
+ navbar editing
+ ---------------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+}
+.menu ul{
+    display: flex;
+}
+li{
+    margin-right: 20px;
+}
+/*-------
+ First banner
+-------- */
+.banner{
+    display: flex;
+}
