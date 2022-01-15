@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: AAAAAA;
+    background-color: rgba(255, 255, 255, 0.39);
 }
 
  /* ---------------------
@@ -18,19 +18,6 @@ nav{
 .nav-title{
     margin-left: 75px;
 }
-/* nav li{
-    list-style: none;
-}
-nav a{
-    text-decoration: none;
-}
-.menu ul{
-    display: flex;
-}
-li{
-    padding-right: 150px;
-} */
-
 
 /* container  */
 
@@ -50,15 +37,11 @@ li{
 .banner-left{
     width: 582px;
     height: 270px;
-    left: 120px;
-    top: 285px;
 
 }
 .banner-right{
     width: 440px;
     height: 414px;
-    left: 835px;
-    top: 211px;
 }
 .banner-left{
     flex: 1;
@@ -80,14 +63,37 @@ li{
 .button{
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 10px;
     border-color: #0a3857;
     border-radius: 15px;
     color: #fff;
     box-shadow: 0 0 40px 40px #0b4368 inset, 0 0 0 0 #154463;
-    -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
   }
   .button:hover {
     box-shadow: 0 0 10px 0 #b1772c inset, 0 0 10px 4px #3498db;
     color: black;
 }
+.button i{
+    padding: 10px;
+}
+ /* 2nd part  */
+ .title{
+     margin-left: 560px;
+ }
+ p{
+     color: purple;
+ }
+
+ }
+ .blog{
+    border-radius: 5px;
+    padding: 5px;
+ }
+ .blogs{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-row-gap: 36px;
+     margin-left: 120px;
+     margin-top: 40px;
+ }
